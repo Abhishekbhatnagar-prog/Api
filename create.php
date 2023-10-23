@@ -22,7 +22,6 @@ if(mysqli_num_rows($result) > 0 ){
 // fetching all data using output as a variable
 $output = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-echo json_encode($output);
 
 
 }else{
